@@ -1,0 +1,20 @@
+.descText {
+    margin-top: 1em;
+
+    h2 {
+        color: darkgoldenrod;
+        display: flex;
+        font-family: lindsey-signature, sans-serif;
+        font-size: x-large;
+        justify-content: center;
+        text-align: center;
+    }
+
+    h3 {
+        color: black;
+        display: flex;
+        font-size: x-large;
+        justify-content: center;
+        text-align: center;
+    }
+}

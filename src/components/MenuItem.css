@@ -1,0 +1,31 @@
+.menuItem {
+    display: flex;
+    padding: 1em 2em;
+
+    .menuText {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    img {
+        border-radius: 10%;
+        display: flex;
+        object-fit: cover;
+        align-items: center;
+    }
+
+    button {
+        background-color: whitesmoke;
+        border: 0.5px solid lightgray;
+        border-radius: 30px;
+        box-shadow: 0px 1px 1px darkgrey;
+        cursor: pointer;
+        font-size: small;
+        padding: 0 1em;
+
+        &:hover {
+            background-color: whitesmoke;
+        }
+    }
+}
