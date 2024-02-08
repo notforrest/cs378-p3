@@ -85,7 +85,7 @@ function App() {
             <link rel="stylesheet" href="https://use.typekit.net/gdy2zfd.css" />
             <MenuHeader />
             <div className="menu">
-                {/* Display menu items dynamicaly here by iterating over the provided menuItems */}
+                {/* Display menu items dynamically here by iterating over the provided menuItems */}
                 {menuItems.map((item) => (
                     <MenuItem
                         key={item.id}

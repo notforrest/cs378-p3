@@ -12,7 +12,7 @@ const MenuItem = ({ title, desc, img, price }) => {
             <div class="menuText col">
                 <div class="fs-5 fw-bold">{title}</div>
                 <div class="fs-6 fw-lighter">{desc}</div>
-                <div class="me-3 d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center justify-content-between">
                     <div>{`$${price}`}</div>
                     <button class="btn">Add</button>
                 </div>
