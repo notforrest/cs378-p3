@@ -11,7 +11,7 @@ const MenuHeader = () => {
             <img src="images/Cafe Logo.png" class="img-fluid" alt="Cafe Logo" />
             <div class="descText">
                 <h2>Everything you could ever want on campus</h2>
-                <h3>#1 Chinese-Inspired Cafe</h3>
+                <h3>#1 Japanese-Inspired Cafe</h3>
             </div>
         </div>
     );

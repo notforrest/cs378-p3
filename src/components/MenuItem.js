@@ -8,7 +8,7 @@ import "./MenuItem.css";
 const MenuItem = ({ title, desc, img, price }) => {
     return (
         <div class="menuItem row">
-            <img src={`/images/${img}`} class="col-5" alt={`${title}`} />
+            <img src={`images/${img}`} class="col-5" alt={`${title}`} />
             <div class="menuText col">
                 <div class="fs-5 fw-bold">{title}</div>
                 <div class="fs-6 fw-lighter">{desc}</div>
