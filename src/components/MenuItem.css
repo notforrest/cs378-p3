@@ -19,14 +19,30 @@
     button {
         background-color: whitesmoke;
         border: 0.5px solid lightgray;
-        border-radius: 30px;
+        border-radius: 50%;
         box-shadow: 0px 1px 1px darkgrey;
         cursor: pointer;
-        font-size: small;
-        padding: 0 1em;
+        font-size: medium;
+        padding: 0 0.5em;
 
         &:hover {
             background-color: whitesmoke;
+        }
+    }
+
+    .priceCounter {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .counter {
+            display: flex;
+            gap: 0.5em;
+
+            .number {
+                width: 2em;
+                text-align: center;
+            }
         }
     }
 }
